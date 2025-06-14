@@ -173,7 +173,7 @@ const SignUpPage = () => {
             {/* Illustration */}
             <div className="relative aspect-square max-w-sm mx-auto">
               <img
-                src="/i2.png"
+                src="/i.png"
                 alt="Language connection illustration"
                 className="w-full h-full"
               />
@@ -185,7 +185,7 @@ const SignUpPage = () => {
               </h2>
               <p className="opacity-70">
                 Practice conversations, make friends, and improve your language
-                skills together.
+                skills together
               </p>
             </div>
           </div>
