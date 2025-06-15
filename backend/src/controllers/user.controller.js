@@ -69,9 +69,11 @@ export async function sendFriendRequest(req, res) {
     });
 
     if (existingRequest) {
-      return res.status(400).json({
-        message: "A friend request already exists between you and this user",
-      });
+      return res
+        .status(400)
+        .json({
+          message: "A friend request already exists between you and this user",
+        });
     }
 
     const friendRequest = await FriendRequest.create({
@@ -145,8 +147,7 @@ export async function getFriendRequests(req, res) {
   }
 }
 
-
-export async function getOutgoingFriendRequests(req, res) {
+export async function getOutgoingFriendReqs(req, res) {
   try {
     const outgoingRequests = await FriendRequest.find({
       sender: req.user.id,
