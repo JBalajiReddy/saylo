@@ -52,7 +52,7 @@ const LoginPage = () => {
           )}
 
           <div className="w-full">
-            <form onSubmit={handleLogin}>
+            <form autoComplete="off" onSubmit={handleLogin}>
               <div className="space-y-4">
                 <div>
                   <h2 className="text-xl font-semibold">Welcome Back</h2>
@@ -132,7 +132,7 @@ const LoginPage = () => {
             {/* Illustration */}
             <div className="relative aspect-square max-w-sm mx-auto">
               <img
-                src="/i.png"
+                src="/i2.png"
                 alt="Language connection illustration"
                 className="w-full h-full"
               />

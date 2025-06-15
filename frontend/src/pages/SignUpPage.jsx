@@ -173,7 +173,7 @@ const SignUpPage = () => {
             {/* Illustration */}
             <div className="relative aspect-square max-w-sm mx-auto">
               <img
-                src="/i.png"
+                src="/i2.png"
                 alt="Language connection illustration"
                 className="w-full h-full"
               />
